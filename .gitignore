@@ -29,9 +29,6 @@
 **/*_override.tf
 **/*_override.tf.json
 
-# Keep Terraform dependency lock files!
-# *.terraform.lock.hcl should generally be committed.
-
 # SSH keys
 keys/*
 !keys/.gitkeep

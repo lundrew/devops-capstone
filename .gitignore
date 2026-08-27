@@ -1,0 +1,39 @@
+# ==========================================
+# Terraform
+# ==========================================
+
+# Terraform working directories
+**/.terraform/
+
+# Terraform state files
+**/*.tfstate
+**/*.tfstate.*
+
+# Terraform crash logs
+**/crash.log
+**/crash.*.log
+
+# Terraform logs
+**/terraform-plugin-proxmox.log
+
+# Terraform plan files
+**/*.tfplan
+
+# Terraform variable files containing environment-specific values
+**/terraform.tfvars
+**/*.auto.tfvars
+
+# Terraform override files
+**/override.tf
+**/override.tf.json
+**/*_override.tf
+**/*_override.tf.json
+
+# Keep Terraform dependency lock files!
+# *.terraform.lock.hcl should generally be committed.
+
+# SSH keys
+**/keys/*
+
+# DS Store
+**/.DS_Store

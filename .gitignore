@@ -33,7 +33,7 @@
 # *.terraform.lock.hcl should generally be committed.
 
 # SSH keys
-**/keys/*
+keys/*
 !keys/.gitkeep
 
 # DS Store
